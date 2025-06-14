@@ -16,6 +16,7 @@ pipeline{
         stage('Terraform init'){
             steps{
                 sh "echo CreateResources is ${params.CreateResources}"
+                sh "echo DestroyResources is ${params.DestroyResources}"
             }
         }
         
