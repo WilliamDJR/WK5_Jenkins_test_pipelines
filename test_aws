@@ -13,7 +13,7 @@ pipeline {
             steps {
                 /*
                 **** Note: 
-                1. You need to install the CloudBees AWS Credentials & Pipeline: AWS Steps plugin to use withAWS
+                1. You need to install the AWS Credentials & Pipeline: AWS Steps plugin to use withAWS
                 2. Change the credentials to your own before run the pipeline
                 3. Install aws cli on your Jenkins Node server  
                 ****
